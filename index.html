@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ad to Landing Page Message Match Checker | PromiseMatch</title>
+  <meta name="description" content="Check whether your ad and landing page make the same promise. PromiseMatch finds message gaps, CTA friction, and prioritized fixes.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://caytec.github.io/promisematch-mvp-20261123/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="PromiseMatch">
+  <meta property="og:title" content="PromiseMatch — Ad-to-Landing-Page Message Match Checker">
+  <meta property="og:description" content="Paste your ad and landing-page hero to see whether they make the same promise.">
+  <meta property="og:url" content="https://caytec.github.io/promisematch-mvp-20261123/">
+  <meta property="og:image" content="https://caytec.github.io/promisematch-mvp-20261123/assets/og.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/svg+xml">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="PromiseMatch — Ad-to-Landing-Page Message Match Checker">
+  <meta name="twitter:description" content="Paste your ad and landing-page hero to see whether they make the same promise.">
+  <meta name="twitter:image" content="https://caytec.github.io/promisematch-mvp-20261123/assets/og.svg">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebApplication",
+    "@id":"https://caytec.github.io/promisematch-mvp-20261123/#application",
+    "name":"PromiseMatch",
+    "url":"https://caytec.github.io/promisematch-mvp-20261123/",
+    "image":"https://caytec.github.io/promisematch-mvp-20261123/assets/og.svg",
+    "description":"A heuristic ad-to-landing-page message match checker for marketers.",
+    "applicationCategory":"BusinessApplication",
+    "applicationSubCategory":"Marketing",
+    "operatingSystem":"Any",
+    "browserRequirements":"Requires JavaScript",
+    "offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}
+  }
+  </script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="PromiseMatch home"><span>Promise</span>Match</a>
+  <nav aria-label="Primary navigation">
+    <a href="landing-page-message-match.html">Methodology</a>
+    <a href="message-match-examples.html">Examples</a>
+    <a href="privacy.html">Privacy</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <p class="eyebrow">Message-match checker for marketers</p>
+    <h1>Does your landing page deliver on the ad’s promise?</h1>
+    <p class="lede">Paste your ad and landing-page hero to find message mismatches, missing proof, CTA friction, and the highest-priority fixes in seconds.</p>
+    <p class="notice"><strong>Privacy note:</strong> Do not paste confidential client, customer, financial, medical, or unreleased campaign information.</p>
+  </section>
+
+  <section class="card tool-card" aria-labelledby="tool-title">
+    <div class="section-heading">
+      <div><p class="eyebrow">Free, no signup</p><h2 id="tool-title">Check my message match</h2></div>
+      <span class="pill">Heuristic diagnostic</span>
+    </div>
+    <form id="audit-form">
+      <p class="required-note"><span aria-hidden="true">*</span> Required</p>
+      <div class="form-grid">
+        <fieldset>
+          <legend>Advertisement</legend>
+          <label for="ad_headline">Ad headline <span aria-hidden="true">*</span></label>
+          <input id="ad_headline" name="ad_headline" maxlength="100" autocomplete="off" required aria-describedby="ad-headline-help" placeholder="Automate weekly reporting">
+          <p id="ad-headline-help" class="field-help">Maximum 100 characters.</p>
+          <label for="ad_body">Ad body or description <span aria-hidden="true">*</span></label>
+          <textarea id="ad_body" name="ad_body" maxlength="2500" autocomplete="off" required aria-describedby="ad-body-help" placeholder="Save hours every week with simple automated reports."></textarea>
+          <p id="ad-body-help" class="field-help">Maximum 2,500 characters.</p>
+          <label for="ad_cta">Ad CTA <span aria-hidden="true">*</span></label>
+          <input id="ad_cta" name="ad_cta" maxlength="80" autocomplete="off" required placeholder="Start free">
+        </fieldset>
+        <fieldset>
+          <legend>Landing-page hero</legend>
+          <label for="page_headline">Page headline <span aria-hidden="true">*</span></label>
+          <input id="page_headline" name="page_headline" maxlength="120" autocomplete="off" required placeholder="Reports your team can build in minutes">
+          <label for="page_subheadline">Page subheadline <span aria-hidden="true">*</span></label>
+          <textarea id="page_subheadline" name="page_subheadline" maxlength="2500" autocomplete="off" required placeholder="Connect your data and create clear dashboards without a specialist."></textarea>
+          <label for="page_cta">Page CTA <span aria-hidden="true">*</span></label>
+          <input id="page_cta" name="page_cta" maxlength="80" autocomplete="off" required placeholder="Create an account">
+        </fieldset>
+      </div>
+      <details>
+        <summary>Optional context</summary>
+        <div class="form-grid optional-grid">
+          <label for="traffic_source">Traffic source
+            <select id="traffic_source" name="traffic_source"><option>Other</option><option>Facebook/Instagram</option><option>Google Ads</option><option>LinkedIn</option></select>
+          </label>
+          <label for="conversion_goal">Conversion goal
+            <select id="conversion_goal" name="conversion_goal"><option>Other</option><option>Purchase</option><option>Signup</option><option>Demo</option><option>Download</option><option>Consultation</option></select>
+          </label>
+          <label for="audience">Target audience<input id="audience" name="audience" maxlength="180" autocomplete="off" placeholder="Small marketing teams"></label>
+          <label for="offer">Offer or product<input id="offer" name="offer" maxlength="180" autocomplete="off" placeholder="Automated reporting software"></label>
+        </div>
+      </details>
+      <div class="actions">
+        <button id="submit-button" type="submit">Check my message match</button>
+        <button id="clear-button" class="secondary" type="button">Clear</button>
+      </div>
+      <p id="status" class="status" aria-live="polite"></p>
+    </form>
+  </section>
+
+  <section id="results" class="results" hidden aria-labelledby="results-title">
+    <div class="result-top">
+      <div><p class="eyebrow">Your scorecard</p><h2 id="results-title">Message match report</h2></div>
+      <div id="score" class="score" aria-describedby="score-description"></div>
+    </div>
+    <p id="score-description" class="status"></p>
+    <p id="result-mode" class="status"></p>
+    <p class="disclaimer">This is a heuristic copy diagnostic—not a guarantee or forecast of conversion performance.</p>
+    <div id="dimensions" class="dimension-grid"></div>
+    <div class="report-grid">
+      <section class="report-section"><h3>What matches</h3><div id="shared"></div></section>
+      <section class="report-section"><h3>Missing confirmations</h3><div id="missing"></div></section>
+      <section class="report-section"><h3>Contradictions</h3><div id="contradictions"></div></section>
+      <section class="report-section"><h3>Claim and trust warnings</h3><div id="warnings"></div></section>
+    </div>
+    <section class="report-section"><h3>Prioritized fixes</h3><ol id="fixes" class="fix-list"></ol></section>
+    <section class="report-section"><h3>Revised hero options</h3><div id="variants" class="variant-grid"></div></section>
+    <div class="actions"><button id="copy-button" type="button">Copy report summary</button><button id="share-button" class="secondary" type="button">Create share card</button></div>
+    <div id="share-card" class="share-card" hidden></div>
+  </section>
+
+  <section class="how-it-works">
+    <p class="eyebrow">How it works</p><h2>Compare the promise, not just the words.</h2>
+    <div class="three-up"><article><b>1. Extract</b><p>We identify benefits, offers, audiences, CTAs, timeframes, and risky claims.</p></article><article><b>2. Compare</b><p>Rules and optional AI analysis distinguish alignment, missing evidence, and contradictions.</p></article><article><b>3. Prioritize</b><p>You get an actionable scorecard grounded in the copy you supplied.</p></article></div>
+  </section>
+</main>
+<footer><p>PromiseMatch is an unofficial entertainment and productivity tool. It does not provide legal, advertising-compliance, or conversion advice.</p><a href="terms.html">Terms</a> <a href="privacy.html">Privacy</a></footer>
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
