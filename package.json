@@ -1,0 +1,13 @@
+{
+  "name": "promisematch-mvp-20261123",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ad to landing page message match checker.",
+  "scripts": {
+    "start": "vercel dev",
+    "check": "node --check api/generate.js && node --check js/app.js && node --check js/config.js"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
