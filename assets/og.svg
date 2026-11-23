@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f7f9fc"/>
+  <rect x="70" y="70" width="1060" height="490" rx="36" fill="#182039"/>
+  <circle cx="930" cy="315" r="130" fill="#5b4bda"/>
+  <path d="M860 315h140M930 245v140" stroke="#fff" stroke-width="24" stroke-linecap="round"/>
+  <text x="130" y="260" fill="#fff" font-family="Arial,sans-serif" font-size="78" font-weight="700">PromiseMatch</text>
+  <text x="135" y="350" fill="#dce2f2" font-family="Arial,sans-serif" font-size="38">Does your page deliver</text>
+  <text x="135" y="405" fill="#dce2f2" font-family="Arial,sans-serif" font-size="38">on the ad’s promise?</text>
+</svg>

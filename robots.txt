@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /promisematch-mvp-20261123/api/
+
+Sitemap: https://caytec.github.io/promisematch-mvp-20261123/sitemap.xml
